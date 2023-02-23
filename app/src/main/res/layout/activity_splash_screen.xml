@@ -1,0 +1,32 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Young Start Idea \n Present`s"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/baseline_local_see_24"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Powerd By Seek Solution"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
